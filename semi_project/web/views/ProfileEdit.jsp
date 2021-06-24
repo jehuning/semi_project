@@ -60,7 +60,7 @@
 	<div id="profileBack" style="">
    		<form  id="profileform" name="profileform" >
    		
-   		<div style="text-align:center;"><img id = "target_img" style="max-width:95%; max-height:500px;" src="/semi_project/upload/<%if(profilePic==null){%>프로필.png<%}else{%><%=profilePic%><% }%>" onclick="document.all.file.click();">
+   		<div style="text-align:center;"><img id = "target_img" style="max-width:95%; max-height:500px;" src="/semi_project/src/<%if(profilePic==null){%>프로필.png<%}else{%><%=profilePic%><% }%>" onclick="document.all.file.click();">
    		
 	    <input type="file" id="file" style = "display:none;" name="file"  accept="image/*" onchange="setThumbnail(event);" />
 	    

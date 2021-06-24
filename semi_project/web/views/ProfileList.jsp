@@ -33,7 +33,7 @@
 			if(i/2 +1 == pNumBase){%>
 		<div id = "pDate"><%=upL.get(i).getProfile_date()%></div>
 		<div id = "pic_box">
-		    <img src="/semi_project/upload/<%=upL.get(i).getPic_RealName() %>" style="max-width:95%; max-height:500px; vertical-align:middle; horizental-align:center;" ></img>
+		    <img src="/semi_project/src/<%=upL.get(i).getPic_RealName() %>" style="max-width:95%; max-height:500px; vertical-align:middle; horizental-align:center;" ></img>
 	    </div>
 	    <div id = "text_box" style="text-align:center;"><%if(upL.get(i).getProfile_txt()==null){%>자기소개가 없습니다.<%}else{%><%=upL.get(i).getProfile_txt()%><%}%>
 	    </div>

@@ -44,7 +44,7 @@ public class ProfileEditCont extends HttpServlet {
 		String id = (String)session.getAttribute("id");
 		
 		ServletContext sc = getServletContext();
-		String dir =  sc.getRealPath("/upload");
+		String dir =  sc.getRealPath("/src");
 		System.out.println(id);
 		
 		int maxSize = 1024 * 1024 * 100;
