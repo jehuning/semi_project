@@ -474,7 +474,7 @@ padding: 5px;
 			<div id = "side_left"><br> TODAY <font color = "red" style="margin-bottom:10px">2</font> | TOTAL 30
 			   	<div id = "left_back">
 				    <div id = "side_left_box1">
-				    <img src="/semi_project/upload/<%if(profilePic==null){%>프로필.png<%}else{%><%=profilePic%><% }%>" id ="profilePic" style="max-width:95%; max-height:200px; vertical-align:middle; cursor:pointer;" onclick = "javascript:profilePopUp(this.src)" title="클릭하여 프로필 수정"></img>
+				    <img src="/semi_project/src/<%if(profilePic==null){%>프로필.png<%}else{%><%=profilePic%><% }%>" id ="profilePic" style="max-width:95%; max-height:200px; vertical-align:middle; cursor:pointer;" onclick = "javascript:profilePopUp(this.src)" title="클릭하여 프로필 수정"></img>
 				    </div>
 				    <div id = "profileText"><%if(profileTxt==null){%>자기소개가 없습니다.<%}else{%><%=profileTxt%><% }%></div>
 				    <div id = "side_left_box2">
@@ -551,7 +551,7 @@ padding: 5px;
 					</div>
 					<div id = "mid_content_box3">
 						미니라이프  | <font style="color:#11DEEE">미니룸  |</font>  스토리룸
-						<img src="/semi_project/upload/미니룸.png" style="display:block; width:470px; margin:0px auto;">
+						<img src="/semi_project/src/미니룸.png" style="display:block; width:470px; margin:0px auto;">
 						
 					</div>
 					<div id = "mid_content_box4">
@@ -611,13 +611,13 @@ padding: 5px;
    			   <hr style="margin:0px; margin-top:7px; width:178px; border: 1px solid #d2d2d2;"></hr>
 			    <div style="margin:0px; width:100%; height:50px; background-color:#efefef;">
 			    	<span style="position:relative; left : 10px; top : 3px; display:block;width:160px; height:18px; background-color:#f9f9f9; border:1px solid gray; font-size:13px;"> 음악 선물하기</span>
-			    	<audio style="width:90%; height:25px; margin-top:3px;" src="/semi_project/upload/" autoplay controls ></audio>
+			    	<audio style="width:90%; height:25px; margin-top:3px;" src="/semi_project/src/" autoplay controls ></audio>
 			    </div>
 			    <div style="text-align:center; font-size:13px;">
 			    	<b>추천BGM</b>/선물가게
 			    	<div style="display:flex; " >
-			    		<img src="/semi_project/upload/앨범1.png" style="margin-left:20px; margin-top: 4px; width:65px;">
-			    		<img src="/semi_project/upload/앨범2.png" style="margin-left:10px; margin-top: 4px; width:65px;">
+			    		<img src="/semi_project/src/앨범1.png" style="margin-left:20px; margin-top: 4px; width:65px;">
+			    		<img src="/semi_project/src/앨범2.png" style="margin-left:10px; margin-top: 4px; width:65px;">
 			    	</div>
 			    	
 			    </div>
