@@ -69,7 +69,7 @@ public class ProfileTravelCont extends HttpServlet {
 		}
 		
 		
-		rtnPage = "{\"profilePic\":\"/semi_project/upload/"+ profilePic + "\", \"profileText\":\""+profileText+"\""
+		rtnPage = "{\"profilePic\":\"/semi_project/src/"+ profilePic + "\", \"profileText\":\""+profileText+"\""
 				+ ", \"currentI\":\""+currentI+"\"}";
 			
 		System.out.println(rtnPage);
